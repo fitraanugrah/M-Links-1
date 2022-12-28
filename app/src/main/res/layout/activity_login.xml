@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_gelap"
+    android:padding="70dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/LoginGelap"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="100dp"
+        android:textStyle="bold"
+        android:textColor="@color/text_gelap"
+        android:gravity="center"
+        android:layout_marginBottom="100dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="@color/text_gelap"
+        android:textColor="@color/text_gelap"
+        android:textSize="50dp"
+        android:backgroundTint="@color/text_gelap"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/text_gelap"
+        android:textColor="@color/text_gelap"
+        android:textSize="50dp"
+        android:backgroundTint="@color/text_gelap"
+        android:layout_marginBottom="90dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gelap"
+        android:padding="10dp"
+        android:text="Login"
+        android:textColor="@color/text_gelap"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textColor="@color/text_gelap"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/btn_resgister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/text_gelap"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+</LinearLayout>
