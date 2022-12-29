@@ -3,4 +3,5 @@
     <corners android:radius="40dp"/>
     <padding android:left="15dp" android:right="10dp" android:top="-5dp" android:bottom="-5dp"/>
     <stroke android:width="2dp" android:color="@color/text_gelap"/>
+    <solid android:color="#06283A"/>
 </shape>
