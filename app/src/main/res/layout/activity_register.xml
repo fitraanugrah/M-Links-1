@@ -15,14 +15,14 @@
         android:layout_gravity="center"
         android:layout_marginTop="75dp"
         android:layout_marginBottom="15dp"
-        android:src="@drawable/LoginGelap" />
+        android:src="@drawable/RegisGelap" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:gravity="center"
-        android:text="Login"
+        android:text="Registration"
         android:textColor="@color/text_gelap"
         android:textSize="40dp"
         android:textStyle="bold" />
@@ -42,22 +42,32 @@
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="35dp"
+        android:layout_marginBottom="10dp"
         android:backgroundTint="@color/text_gelap"
         android:hint="Password"
         android:textColor="@color/text_gelap"
         android:textColorHint="@color/text_gelap"
-        app:passwordToggleEnabled="true"
-        android:textSize="23dp"/>
+        android:textSize="23dp" />
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="@color/text_gelap"
+        android:hint="Confirm Password"
+        android:textColor="@color/text_gelap"
+        android:textColorHint="@color/text_gelap"
+        android:textSize="23dp" />
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:background="@drawable/btn_gelap"
-        android:text="Login"
+        android:text="Register"
         android:textAllCaps="false"
         android:textColor="@color/text_gelap"
         android:textSize="23dp"
@@ -74,11 +84,11 @@
         android:textSize="23dp" />
 
     <TextView
-        android:id="@+id/btn_resgister"
+        android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Register"
+        android:text="Login"
         android:textColor="@color/text_gelap"
         android:textSize="23dp"
         android:textStyle="bold" />
