@@ -23,7 +23,7 @@
             android:layout_toRightOf="@id/logo"
             android:text="Name App or Website"
             android:textColor="@color/text_gelap"
-            android:textSize="20dp"
+            android:textSize="18dp"
             android:textStyle="bold" />
 
         <LinearLayout
@@ -38,11 +38,40 @@
             android:id="@+id/deskripsi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
             android:layout_below="@id/nama_aplikasi"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="12dp"
             android:layout_toRightOf="@id/logo"
             android:text="Description App or Website"
             android:textColor="@color/text_gelap"
             android:textSize="12dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/deskripsi"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp">
+
+                <TextView
+                    android:id="@+id/btn_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edit"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/text_gelap"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:id="@+id/btn_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delete"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/text_gelap"/>
+        </LinearLayout>
 
 </RelativeLayout>
